@@ -1,2 +1,0 @@
-# VisualBasic
-VB.NET
