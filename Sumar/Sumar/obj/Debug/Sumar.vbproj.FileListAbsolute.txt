@@ -1,0 +1,12 @@
+C:\Users\daakm\source\repos\Sumar\Sumar\bin\Debug\Sumar.exe.config
+C:\Users\daakm\source\repos\Sumar\Sumar\bin\Debug\Sumar.exe
+C:\Users\daakm\source\repos\Sumar\Sumar\bin\Debug\Sumar.pdb
+C:\Users\daakm\source\repos\Sumar\Sumar\bin\Debug\Sumar.xml
+C:\Users\daakm\source\repos\Sumar\Sumar\obj\Debug\Sumar.vbproj.AssemblyReference.cache
+C:\Users\daakm\source\repos\Sumar\Sumar\obj\Debug\Sumar.Form1.resources
+C:\Users\daakm\source\repos\Sumar\Sumar\obj\Debug\Sumar.Resources.resources
+C:\Users\daakm\source\repos\Sumar\Sumar\obj\Debug\Sumar.vbproj.GenerateResource.cache
+C:\Users\daakm\source\repos\Sumar\Sumar\obj\Debug\Sumar.vbproj.CoreCompileInputs.cache
+C:\Users\daakm\source\repos\Sumar\Sumar\obj\Debug\Sumar.exe
+C:\Users\daakm\source\repos\Sumar\Sumar\obj\Debug\Sumar.xml
+C:\Users\daakm\source\repos\Sumar\Sumar\obj\Debug\Sumar.pdb
