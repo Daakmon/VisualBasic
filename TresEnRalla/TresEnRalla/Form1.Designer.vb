@@ -23,142 +23,178 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Me.IML_Imagenes = New System.Windows.Forms.ImageList(Me.components)
+        Me.PCB_1 = New System.Windows.Forms.PictureBox()
+        Me.PCB_2 = New System.Windows.Forms.PictureBox()
+        Me.PCB_3 = New System.Windows.Forms.PictureBox()
+        Me.PCB_4 = New System.Windows.Forms.PictureBox()
+        Me.PCB_5 = New System.Windows.Forms.PictureBox()
+        Me.PCB_6 = New System.Windows.Forms.PictureBox()
+        Me.PCB_7 = New System.Windows.Forms.PictureBox()
+        Me.PCB_8 = New System.Windows.Forms.PictureBox()
+        Me.PCB_9 = New System.Windows.Forms.PictureBox()
+        Me.BTN_Deshacer = New System.Windows.Forms.Button()
+        Me.BTN_Salir = New System.Windows.Forms.Button()
+        CType(Me.PCB_1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PCB_2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PCB_3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PCB_4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PCB_5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PCB_6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PCB_7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PCB_8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PCB_9, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'ImageList1
+        'IML_Imagenes
         '
-        Me.ImageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit
-        Me.ImageList1.ImageSize = New System.Drawing.Size(16, 16)
-        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.IML_Imagenes.ImageStream = CType(resources.GetObject("IML_Imagenes.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.IML_Imagenes.TransparentColor = System.Drawing.Color.Transparent
+        Me.IML_Imagenes.Images.SetKeyName(0, "Nada.jpg")
+        Me.IML_Imagenes.Images.SetKeyName(1, "X.png")
+        Me.IML_Imagenes.Images.SetKeyName(2, "O.png")
         '
-        'PictureBox1
+        'PCB_1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(113, 109)
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
+        Me.PCB_1.Location = New System.Drawing.Point(12, 12)
+        Me.PCB_1.Name = "PCB_1"
+        Me.PCB_1.Size = New System.Drawing.Size(113, 109)
+        Me.PCB_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PCB_1.TabIndex = 0
+        Me.PCB_1.TabStop = False
         '
-        'PictureBox2
+        'PCB_2
         '
-        Me.PictureBox2.Location = New System.Drawing.Point(131, 12)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(113, 109)
-        Me.PictureBox2.TabIndex = 1
-        Me.PictureBox2.TabStop = False
+        Me.PCB_2.Location = New System.Drawing.Point(131, 12)
+        Me.PCB_2.Name = "PCB_2"
+        Me.PCB_2.Size = New System.Drawing.Size(113, 109)
+        Me.PCB_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PCB_2.TabIndex = 1
+        Me.PCB_2.TabStop = False
         '
-        'PictureBox3
+        'PCB_3
         '
-        Me.PictureBox3.Location = New System.Drawing.Point(250, 12)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(113, 109)
-        Me.PictureBox3.TabIndex = 2
-        Me.PictureBox3.TabStop = False
+        Me.PCB_3.Location = New System.Drawing.Point(250, 12)
+        Me.PCB_3.Name = "PCB_3"
+        Me.PCB_3.Size = New System.Drawing.Size(113, 109)
+        Me.PCB_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PCB_3.TabIndex = 2
+        Me.PCB_3.TabStop = False
         '
-        'PictureBox4
+        'PCB_4
         '
-        Me.PictureBox4.Location = New System.Drawing.Point(12, 127)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(113, 109)
-        Me.PictureBox4.TabIndex = 3
-        Me.PictureBox4.TabStop = False
+        Me.PCB_4.Location = New System.Drawing.Point(12, 127)
+        Me.PCB_4.Name = "PCB_4"
+        Me.PCB_4.Size = New System.Drawing.Size(113, 109)
+        Me.PCB_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PCB_4.TabIndex = 3
+        Me.PCB_4.TabStop = False
         '
-        'PictureBox5
+        'PCB_5
         '
-        Me.PictureBox5.Location = New System.Drawing.Point(131, 127)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(113, 109)
-        Me.PictureBox5.TabIndex = 4
-        Me.PictureBox5.TabStop = False
+        Me.PCB_5.Location = New System.Drawing.Point(131, 127)
+        Me.PCB_5.Name = "PCB_5"
+        Me.PCB_5.Size = New System.Drawing.Size(113, 109)
+        Me.PCB_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PCB_5.TabIndex = 4
+        Me.PCB_5.TabStop = False
         '
-        'PictureBox6
+        'PCB_6
         '
-        Me.PictureBox6.Location = New System.Drawing.Point(250, 127)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(113, 109)
-        Me.PictureBox6.TabIndex = 5
-        Me.PictureBox6.TabStop = False
+        Me.PCB_6.Location = New System.Drawing.Point(250, 127)
+        Me.PCB_6.Name = "PCB_6"
+        Me.PCB_6.Size = New System.Drawing.Size(113, 109)
+        Me.PCB_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PCB_6.TabIndex = 5
+        Me.PCB_6.TabStop = False
         '
-        'PictureBox7
+        'PCB_7
         '
-        Me.PictureBox7.Location = New System.Drawing.Point(12, 242)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(113, 109)
-        Me.PictureBox7.TabIndex = 6
-        Me.PictureBox7.TabStop = False
+        Me.PCB_7.Location = New System.Drawing.Point(12, 242)
+        Me.PCB_7.Name = "PCB_7"
+        Me.PCB_7.Size = New System.Drawing.Size(113, 109)
+        Me.PCB_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PCB_7.TabIndex = 6
+        Me.PCB_7.TabStop = False
         '
-        'PictureBox8
+        'PCB_8
         '
-        Me.PictureBox8.Location = New System.Drawing.Point(131, 242)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(113, 109)
-        Me.PictureBox8.TabIndex = 7
-        Me.PictureBox8.TabStop = False
+        Me.PCB_8.Location = New System.Drawing.Point(131, 242)
+        Me.PCB_8.Name = "PCB_8"
+        Me.PCB_8.Size = New System.Drawing.Size(113, 109)
+        Me.PCB_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PCB_8.TabIndex = 7
+        Me.PCB_8.TabStop = False
         '
-        'PictureBox9
+        'PCB_9
         '
-        Me.PictureBox9.Location = New System.Drawing.Point(250, 242)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(113, 109)
-        Me.PictureBox9.TabIndex = 8
-        Me.PictureBox9.TabStop = False
+        Me.PCB_9.Location = New System.Drawing.Point(250, 242)
+        Me.PCB_9.Name = "PCB_9"
+        Me.PCB_9.Size = New System.Drawing.Size(113, 109)
+        Me.PCB_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PCB_9.TabIndex = 8
+        Me.PCB_9.TabStop = False
+        '
+        'BTN_Deshacer
+        '
+        Me.BTN_Deshacer.Location = New System.Drawing.Point(288, 360)
+        Me.BTN_Deshacer.Name = "BTN_Deshacer"
+        Me.BTN_Deshacer.Size = New System.Drawing.Size(75, 23)
+        Me.BTN_Deshacer.TabIndex = 10
+        Me.BTN_Deshacer.Text = "Deshacer"
+        Me.BTN_Deshacer.UseVisualStyleBackColor = True
+        '
+        'BTN_Salir
+        '
+        Me.BTN_Salir.Location = New System.Drawing.Point(12, 360)
+        Me.BTN_Salir.Name = "BTN_Salir"
+        Me.BTN_Salir.Size = New System.Drawing.Size(75, 23)
+        Me.BTN_Salir.TabIndex = 11
+        Me.BTN_Salir.Text = "Salir"
+        Me.BTN_Salir.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(379, 360)
-        Me.Controls.Add(Me.PictureBox9)
-        Me.Controls.Add(Me.PictureBox8)
-        Me.Controls.Add(Me.PictureBox7)
-        Me.Controls.Add(Me.PictureBox6)
-        Me.Controls.Add(Me.PictureBox5)
-        Me.Controls.Add(Me.PictureBox4)
-        Me.Controls.Add(Me.PictureBox3)
-        Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.ClientSize = New System.Drawing.Size(375, 388)
+        Me.Controls.Add(Me.BTN_Salir)
+        Me.Controls.Add(Me.BTN_Deshacer)
+        Me.Controls.Add(Me.PCB_9)
+        Me.Controls.Add(Me.PCB_8)
+        Me.Controls.Add(Me.PCB_7)
+        Me.Controls.Add(Me.PCB_6)
+        Me.Controls.Add(Me.PCB_5)
+        Me.Controls.Add(Me.PCB_4)
+        Me.Controls.Add(Me.PCB_3)
+        Me.Controls.Add(Me.PCB_2)
+        Me.Controls.Add(Me.PCB_1)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PCB_1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PCB_2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PCB_3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PCB_4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PCB_5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PCB_6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PCB_7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PCB_8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PCB_9, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents ImageList1 As ImageList
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents PictureBox6 As PictureBox
-    Friend WithEvents PictureBox7 As PictureBox
-    Friend WithEvents PictureBox8 As PictureBox
-    Friend WithEvents PictureBox9 As PictureBox
+    Friend WithEvents IML_Imagenes As ImageList
+    Friend WithEvents PCB_1 As PictureBox
+    Friend WithEvents PCB_2 As PictureBox
+    Friend WithEvents PCB_3 As PictureBox
+    Friend WithEvents PCB_4 As PictureBox
+    Friend WithEvents PCB_5 As PictureBox
+    Friend WithEvents PCB_6 As PictureBox
+    Friend WithEvents PCB_7 As PictureBox
+    Friend WithEvents PCB_8 As PictureBox
+    Friend WithEvents PCB_9 As PictureBox
+    Friend WithEvents BTN_Deshacer As Button
+    Friend WithEvents BTN_Salir As Button
 End Class
