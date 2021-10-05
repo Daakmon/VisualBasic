@@ -127,9 +127,14 @@
         PCB_8.Tag = 0
         PCB_9.Tag = 0
 
-        For i = 0 To 8
-            'PCB_(i).Image = IML_Imagenes.Images(0)
-        Next
+        'For i=0 to 8
+        'PCB_(i).Image = IML_Imagenes.Images(0)
+        'Next
+
+        'For Each elemento As PictureBox In Me.Controls
+        'elemento.Image = IML_Imagenes.Images(0)
+        'Next
+
         PCB_1.Image = IML_Imagenes.Images(0)
         PCB_2.Image = IML_Imagenes.Images(0)
         PCB_3.Image = IML_Imagenes.Images(0)
