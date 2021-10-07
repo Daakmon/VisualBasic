@@ -82,6 +82,7 @@ Partial Class Primitiva
         Me.Button1 = New System.Windows.Forms.Button()
         Me.BTN_Salir = New System.Windows.Forms.Button()
         Me.LBL_Aciertos = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.GRB_Numeros.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -768,11 +769,21 @@ Partial Class Primitiva
         Me.LBL_Aciertos.TabIndex = 10
         Me.LBL_Aciertos.Text = "ACIERTOS:"
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(228, 250)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 11
+        Me.Button2.Text = "Button2"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Primitiva
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(534, 326)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.LBL_Aciertos)
         Me.Controls.Add(Me.BTN_Salir)
         Me.Controls.Add(Me.Button1)
@@ -853,4 +864,5 @@ Partial Class Primitiva
     Friend WithEvents Button1 As Button
     Friend WithEvents BTN_Salir As Button
     Friend WithEvents LBL_Aciertos As Label
+    Friend WithEvents Button2 As Button
 End Class
