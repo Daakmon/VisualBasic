@@ -22,92 +22,79 @@
         'Combinaciones Ganadoras
         'Horizontales
         If PCB_1.Tag = jugador And PCB_2.Tag = jugador And PCB_3.Tag = jugador Then
-            If jugador = 1 Then
-                MsgBox("Ganador Jugador 1")
-            Else
-                MsgBox("Ganador Jugador 2")
-            End If
+            Gandror()
         End If
 
         If PCB_4.Tag = jugador And PCB_5.Tag = jugador And PCB_6.Tag = jugador Then
-            If jugador = 1 Then
-                MsgBox("Ganador Jugador 1")
-            Else
-                MsgBox("Ganador Jugador 2")
-            End If
+            Gandror()
         End If
         If PCB_7.Tag = jugador And PCB_8.Tag = jugador And PCB_9.Tag = jugador Then
-            If jugador = 1 Then
-                MsgBox("Ganador Jugador 1")
-            Else
-                MsgBox("Ganador Jugador 2")
-            End If
+            Gandror()
         End If
         'Verticales
         If PCB_1.Tag = jugador And PCB_4.Tag = jugador And PCB_7.Tag = jugador Then
-            If jugador = 1 Then
-                MsgBox("Ganador Jugador 1")
-            Else
-                MsgBox("Ganador Jugador 2")
-            End If
+            Gandror()
         End If
 
         If PCB_2.Tag = jugador And PCB_5.Tag = jugador And PCB_8.Tag = jugador Then
-            If jugador = 1 Then
-                MsgBox("Ganador Jugador 1")
-            Else
-                MsgBox("Ganador Jugador 2")
-            End If
+            Gandror()
         End If
 
         If PCB_3.Tag = jugador And PCB_6.Tag = jugador And PCB_9.Tag = jugador Then
-            If jugador = 1 Then
-                MsgBox("Ganador Jugador 1")
-            Else
-                MsgBox("Ganador Jugador 2")
-            End If
+            Gandror()
         End If
         'Diagonales
         If PCB_1.Tag = jugador And PCB_5.Tag = jugador And PCB_9.Tag = jugador Then
-            If jugador = 1 Then
-                MsgBox("Ganador Jugador 1")
-            Else
-                MsgBox("Ganador Jugador 2")
-            End If
+            Gandror()
         End If
 
         If PCB_3.Tag = jugador And PCB_5.Tag = jugador And PCB_7.Tag = jugador Then
-            If jugador = 1 Then
-                MsgBox("Ganador Jugador 1")
-            Else
-                MsgBox("Ganador Jugador 2")
-            End If
+            Gandror()
         End If
     End Sub
 
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub Deshacer()
         turno = 0
 
-        PCB_1.Tag = 0
-        PCB_2.Tag = 0
-        PCB_3.Tag = 0
-        PCB_4.Tag = 0
-        PCB_5.Tag = 0
-        PCB_6.Tag = 0
-        PCB_7.Tag = 0
-        PCB_8.Tag = 0
-        PCB_9.Tag = 0
+        For Each elemento In Me.Controls
+            If TypeOf elemento Is PictureBox Then
+                elemento.Image = IML_Imagenes.Images(0)
+                elemento.Tag = 0
+            End If
+        Next
+    End Sub
 
-        PCB_1.Image = IML_Imagenes.Images(0)
-        PCB_2.Image = IML_Imagenes.Images(0)
-        PCB_3.Image = IML_Imagenes.Images(0)
-        PCB_4.Image = IML_Imagenes.Images(0)
-        PCB_5.Image = IML_Imagenes.Images(0)
-        PCB_6.Image = IML_Imagenes.Images(0)
-        PCB_7.Image = IML_Imagenes.Images(0)
-        PCB_8.Image = IML_Imagenes.Images(0)
-        PCB_9.Image = IML_Imagenes.Images(0)
+    Private Sub Gandror()
+        If jugador = 1 Then
+            MsgBox("Ganador Jugador 1")
+        Else
+            MsgBox("Ganador Jugador 2")
+        End If
+        BTN_Deshacer.PerformClick() 'Despues de la ventana de ganador se autoclick en boton deshacer
+    End Sub
 
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Deshacer()
+
+        'PCB_1.Tag = 0
+        'PCB_2.Tag = 0
+        'PCB_3.Tag = 0
+        'PCB_4.Tag = 0
+        'PCB_5.Tag = 0
+        'PCB_6.Tag = 0
+        'PCB_7.Tag = 0
+        'PCB_8.Tag = 0
+        'PCB_9.Tag = 0
+
+        'PCB_1.Image = IML_Imagenes.Images(0)
+        'PCB_2.Image = IML_Imagenes.Images(0)
+        'PCB_3.Image = IML_Imagenes.Images(0)
+        'PCB_4.Image = IML_Imagenes.Images(0)
+        'PCB_5.Image = IML_Imagenes.Images(0)
+        'PCB_6.Image = IML_Imagenes.Images(0)
+        'PCB_7.Image = IML_Imagenes.Images(0)
+        'PCB_8.Image = IML_Imagenes.Images(0)
+        'PCB_9.Image = IML_Imagenes.Images(0)
     End Sub
 
     Private Sub BTN_Salir_Click(sender As Object, e As EventArgs) Handles BTN_Salir.Click
@@ -115,35 +102,6 @@
     End Sub
 
     Private Sub BTN_Deshacer_Click(sender As Object, e As EventArgs) Handles BTN_Deshacer.Click
-        turno = 0
-
-        PCB_1.Tag = 0
-        PCB_2.Tag = 0
-        PCB_3.Tag = 0
-        PCB_4.Tag = 0
-        PCB_5.Tag = 0
-        PCB_6.Tag = 0
-        PCB_7.Tag = 0
-        PCB_8.Tag = 0
-        PCB_9.Tag = 0
-
-        'For i=0 to 8
-        'PCB_(i).Image = IML_Imagenes.Images(0)
-        'Next
-
-        'For Each elemento As PictureBox In Me.Controls
-        'elemento.Image = IML_Imagenes.Images(0)
-        'Next
-
-        PCB_1.Image = IML_Imagenes.Images(0)
-        PCB_2.Image = IML_Imagenes.Images(0)
-        PCB_3.Image = IML_Imagenes.Images(0)
-        PCB_4.Image = IML_Imagenes.Images(0)
-        PCB_5.Image = IML_Imagenes.Images(0)
-        PCB_6.Image = IML_Imagenes.Images(0)
-        PCB_7.Image = IML_Imagenes.Images(0)
-        PCB_8.Image = IML_Imagenes.Images(0)
-        PCB_9.Image = IML_Imagenes.Images(0)
-
+        Deshacer()
     End Sub
 End Class
