@@ -49,7 +49,7 @@
         For Each ck In GRB_Numeros.Controls
             For Each numero In Me.Controls
                 If TypeOf numero Is TextBox Then
-                    If numero.Text = ck.Text Then
+                    If Val(numero.Text) = Val(ck.Text) And ck.Checked Then 'El Val es opcional, sean string o integer funcionaran al ser iguales
                         cont += 1
                         LBL_ContAciertos.Text = cont
                     End If
