@@ -39,10 +39,23 @@
     Private Sub BTN_Sorteo_Click(sender As Object, e As EventArgs) Handles BTN_Sorteo.Click
         cont = 0
 
+        Dim encontrado As Boolean
+        Dim array(5) As Integer
+
         For Each numero In Me.Controls
             If TypeOf numero Is TextBox Then
-                Random()
-                numero.Text = rndm
+                For i = 0 To 5
+                    Do
+                        Random()
+                        encontrado = False
+                        For j = 0 To i - 1
+                            If array(j) = rndm Then
+                                encontrado = True
+                            End If
+                        Next
+                    Loop While array(i) = rndm And encontrado = True
+                    array(i) = rndm
+                Next
             End If
         Next
 
@@ -56,6 +69,8 @@
                 End If
             Next
         Next
+
+        Erase array
     End Sub
 
     Private Sub BTN_Deshacer_Click(sender As Object, e As EventArgs) Handles BTN_Deshacer.Click
