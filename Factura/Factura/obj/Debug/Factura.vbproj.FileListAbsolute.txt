@@ -1,0 +1,12 @@
+C:\Users\daakm\source\repos\Factura\Factura\bin\Debug\Factura.exe.config
+C:\Users\daakm\source\repos\Factura\Factura\bin\Debug\Factura.exe
+C:\Users\daakm\source\repos\Factura\Factura\bin\Debug\Factura.pdb
+C:\Users\daakm\source\repos\Factura\Factura\bin\Debug\Factura.xml
+C:\Users\daakm\source\repos\Factura\Factura\obj\Debug\Factura.vbproj.AssemblyReference.cache
+C:\Users\daakm\source\repos\Factura\Factura\obj\Debug\Factura.Resources.resources
+C:\Users\daakm\source\repos\Factura\Factura\obj\Debug\Factura.vbproj.GenerateResource.cache
+C:\Users\daakm\source\repos\Factura\Factura\obj\Debug\Factura.vbproj.CoreCompileInputs.cache
+C:\Users\daakm\source\repos\Factura\Factura\obj\Debug\Factura.exe
+C:\Users\daakm\source\repos\Factura\Factura\obj\Debug\Factura.xml
+C:\Users\daakm\source\repos\Factura\Factura\obj\Debug\Factura.pdb
+C:\Users\daakm\source\repos\Factura\Factura\obj\Debug\Factura.FRM_Factura.resources
