@@ -1,0 +1,15 @@
+C:\Users\daakm\source\repos\TiroPato\TiroPato\bin\Debug\TiroPato.exe.config
+C:\Users\daakm\source\repos\TiroPato\TiroPato\bin\Debug\TiroPato.exe
+C:\Users\daakm\source\repos\TiroPato\TiroPato\bin\Debug\TiroPato.pdb
+C:\Users\daakm\source\repos\TiroPato\TiroPato\bin\Debug\TiroPato.xml
+C:\Users\daakm\source\repos\TiroPato\TiroPato\obj\Debug\TiroPato.vbproj.AssemblyReference.cache
+C:\Users\daakm\source\repos\TiroPato\TiroPato\obj\Debug\TiroPato.TiroAlPato.resources
+C:\Users\daakm\source\repos\TiroPato\TiroPato\obj\Debug\TiroPato.Resources.resources
+C:\Users\daakm\source\repos\TiroPato\TiroPato\obj\Debug\TiroPato.vbproj.GenerateResource.cache
+C:\Users\daakm\source\repos\TiroPato\TiroPato\obj\Debug\TiroPato.vbproj.CoreCompileInputs.cache
+C:\Users\daakm\source\repos\TiroPato\TiroPato\obj\Debug\TiroPato.exe
+C:\Users\daakm\source\repos\TiroPato\TiroPato\obj\Debug\TiroPato.xml
+C:\Users\daakm\source\repos\TiroPato\TiroPato\obj\Debug\TiroPato.pdb
+C:\Users\daakm\source\repos\TiroPato\TiroPato\obj\Debug\TiroPato.Resource1.resources
+C:\Users\daakm\source\repos\TiroPato\TiroPato\obj\Debug\TiroPato.Resource2.resources
+C:\Users\daakm\source\repos\TiroPato\TiroPato\obj\Debug\TiroPato.Resource3.resources
