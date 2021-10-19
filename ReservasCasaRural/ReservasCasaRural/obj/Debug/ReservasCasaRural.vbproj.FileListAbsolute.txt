@@ -1,0 +1,12 @@
+C:\Users\daakm\source\repos\ReservasCasaRural\ReservasCasaRural\bin\Debug\ReservasCasaRural.exe.config
+C:\Users\daakm\source\repos\ReservasCasaRural\ReservasCasaRural\bin\Debug\ReservasCasaRural.exe
+C:\Users\daakm\source\repos\ReservasCasaRural\ReservasCasaRural\bin\Debug\ReservasCasaRural.pdb
+C:\Users\daakm\source\repos\ReservasCasaRural\ReservasCasaRural\bin\Debug\ReservasCasaRural.xml
+C:\Users\daakm\source\repos\ReservasCasaRural\ReservasCasaRural\obj\Debug\ReservasCasaRural.vbproj.AssemblyReference.cache
+C:\Users\daakm\source\repos\ReservasCasaRural\ReservasCasaRural\obj\Debug\ReservasCasaRural.Form1.resources
+C:\Users\daakm\source\repos\ReservasCasaRural\ReservasCasaRural\obj\Debug\ReservasCasaRural.Resources.resources
+C:\Users\daakm\source\repos\ReservasCasaRural\ReservasCasaRural\obj\Debug\ReservasCasaRural.vbproj.GenerateResource.cache
+C:\Users\daakm\source\repos\ReservasCasaRural\ReservasCasaRural\obj\Debug\ReservasCasaRural.vbproj.CoreCompileInputs.cache
+C:\Users\daakm\source\repos\ReservasCasaRural\ReservasCasaRural\obj\Debug\ReservasCasaRural.exe
+C:\Users\daakm\source\repos\ReservasCasaRural\ReservasCasaRural\obj\Debug\ReservasCasaRural.xml
+C:\Users\daakm\source\repos\ReservasCasaRural\ReservasCasaRural\obj\Debug\ReservasCasaRural.pdb
